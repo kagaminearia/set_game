@@ -1,0 +1,82 @@
+/* Classes */
+.center {
+  display: block;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+.content {
+  background-color: #b0b7bc;
+  border-radius: 25px;
+  border-style: outset;
+  box-shadow: 9px 9px #666;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 650px;
+  word-spacing: 3px;
+}
+
+.gamebutton {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.pics {
+  height: 161px;
+  width: 120px;
+  padding: 5px;
+}
+
+/* IDs */
+#homebox {
+  margin-top: 15%;
+  margin-bottom: 10px;
+}
+
+#homebutton {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#homeimage {
+  height: 25%;
+  width: 25%;
+}
+
+#navbar-margin {
+  margin-left: 1rem;
+}
+
+#rulesbox {
+    margin-top: 2%;
+    margin-bottom: 10px;
+}
+
+#welcome {
+    margin: 1rem;
+}
+
+/* Main */
+p {
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+td, th {
+  padding: 10px;
+}
+
+/* Links */
+a:hover {
+  background-color: #b0b7bc;
+}
+
+a:link,
+a:visited {
+  color: #000;
+}

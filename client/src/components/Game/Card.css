@@ -1,0 +1,55 @@
+/* Classes */
+.card-text {
+  text-align: center;
+  font-size: 1.8vh;
+  line-height: 1.7vh;
+}
+
+.card-selector {
+  background: white;
+  cursor: pointer;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+
+  height: 10vh;
+  width: 7.5vh;
+
+  padding: 1vh;
+  margin: 0.5vh;
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.4em;
+  box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.15);
+}
+
+.card-selector.correct {
+  background: #00ff00;
+}
+
+.card-selector.incorrect {
+  background: #ff0000;
+}
+
+.card-selector.selected {
+  background: #ececec;
+}
+
+.card-selector.hint {
+  background: yellow;
+}
+
+.card-selector.correct {
+  background: rgba(0, 255, 0, 0.35);
+}
+
+.card-selector.incorrect {
+  background: rgba(255, 0, 0, 0.35);
+}
+
+.card-selector:hover {
+  background: #ececec;
+  box-shadow: 0 0.5em 0.9em rgba(0, 0, 0, 0.15);
+}
+.card-selector:active {
+  transform: scale(0.99);
+}

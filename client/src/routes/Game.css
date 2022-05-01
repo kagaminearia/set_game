@@ -1,0 +1,51 @@
+/* Main */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 0 16px;
+  height: var(--header-height);
+  color: var(--color-tone-1);
+  border-bottom: 1px solid var(--color-tone-4);
+}
+
+/* Inherited Classes */
+header .title {
+  font-family: "nyt-karnakcondensed";
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+/* Classes */
+.game-info {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.menu-left {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  width: 70px;
+  justify-content: flex-start;
+}
+
+.menu-right {
+  display: flex;
+  width: 70px;
+  justify-content: flex-end;
+}
+
+.board-container {
+  display: flex;
+  justify-content: center;
+}

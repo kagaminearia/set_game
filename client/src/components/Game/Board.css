@@ -1,0 +1,10 @@
+/* Classes */
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 65%;
+  box-shadow: rgb(102, 102, 102) 5px 5px 15px 10px;
+}
